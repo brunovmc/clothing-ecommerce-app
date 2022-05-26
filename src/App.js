@@ -2,7 +2,7 @@ import { Routes, Route} from  'react-router-dom'
 
 import NavBar from './routes/navbar/navbar.component';
 import Home from  './routes/home/home.component'
-import SignIn from './routes/signin/signin.component';
+import SignIn from './routes/sign-in/sign-in.component';
 
 
 const Shop = () => {
