@@ -10,7 +10,7 @@ import {
 
 import SignUpForm from '../../components/sign-up/sign-up-form.component';
 
-const SignIn = () => {
+const Authentication = () => {
     useEffect(() => {
         async function logInWithRedirect() {
             const response = await getRedirectResult(auth);
@@ -39,4 +39,4 @@ const SignIn = () => {
     );
 }
 
-export default SignIn;
+export default Authentication;
